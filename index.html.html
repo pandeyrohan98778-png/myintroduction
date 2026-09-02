@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Introduction</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            padding: 20px;
+            background-color: lightgreen;
+        }
+
+        nav a {
+            margin: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Home */
+        #home {
+            padding: 80px 10%;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .photo img {
+            border-radius: 50%;
+        }
+
+        .text h1 {
+            font-size: 40px;
+        }
+
+        /* About */
+        #about {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        /* Education */
+        #education {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        /* Skills */
+        #skills {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .skill {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        /* Contact */
+        #contact {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 70%;
+            padding: 10px;
+            margin: 8px;
+            background-color: lightgray;
+            border: 2px solid lightgrey;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 30px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: lightblue;
+        }
+        #contact h1 {
+            color:brown;
+            text-decoration: underline;
+        }
+        #skills h1 {
+            color: brown;
+            text-decoration: underline;
+        }
+        #education h1 {
+            color: brown;
+            text-decoration: underline;        }
+            #about h1 {
+                color: brown;
+                text-decoration: underline;
+            }
+            #hobbies h1 {
+                color: brown;
+                text-decoration: underline;
+            }
+            #hobbies {
+                text-align: center;
+                padding: 60px;
+            }
+            #hobbies h1 {
+                font-size: 40px;
+                text-decoration: underline;
+                margin-bottom: 50px;
+            }
+            .hobby{
+                margin-bottom: 40px;
+            }
+            .hobby img{
+                width: 320px;
+                height: 220px;
+                object-fit: cover;
+            }
+            .hobby h3{
+                font-size: 25px;
+                margin-top: 15px;
+            }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home">
+
+        <div class="intro">
+
+            <div class="photo">
+                <img src="p.jpg.jpeg" width="200">
+            </div>
+
+            <div class="text">
+                <h1>Hello, I am Rohan Pandey</h1>
+
+                <h2>PGDCA student in GPL college Lucknow </h2>
+
+                <p>
+                    Welcome to my personal website.
+                </p>
+
+                <p>
+                PGDCA student | IT professional
+                I am a passionate and dedicated student with a strong
+                intrest in computer application , programming and wed development. 
+                I am continuously developing my technical skill and exploring new
+                 technologies to build a succesful carrer in the IT industry. 
+                </p>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        
+        <h1>About</h1>
+        <p class="intro-text">
+            Hello! My name is Rohan Pandey. I am a Pgdca  student. I am intrested in<br>
+            computer programing and web development and technology. He is a very verstile<br>
+            ,hard-working,and talented student. 
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education">
+
+        <h1>My Education</h1>
+
+        <table>
+
+            <tr>
+                <th>Qualification</th>
+                <th>Board / University</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>10th</td>
+                <td>UP Board</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>12th</td>
+                <td>UP Board</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>B.Sc</td>
+                <td>K.N.I.P.S.S</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>PGDCA</td>
+                <td>GPL lucknow</td>
+                <td>Pursuing</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h1>My Skills</h1>
+
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill"> Basic MS Word </div>
+        <div class="skill"> Basic MS Excel</div>
+        <div class="skill">Basic powerpoint</div>
+
+    </section>
+    <!--Hobbies-->
+    <section id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="hobby-container">
+            <div class="hobby">
+                <img src="y.jpg" alt="Reading Book">
+                <h3>Reading Book</h3>
+            </div>
+            <div class="hobby">
+                <img src="r.jpg" alt="Biking">
+                <h3>Biking</h3>
+            </div>
+            <div class="hobby">
+                <img src="n.jpg" alt="Coding">
+                 <h3>Coding</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Contact me</h1>
+
+        <p>Email: rohanpandey1080@gmail.com</p>
+
+        <p>Mobile:7571840315</p>
+
+        <p>Snap id - sundram_pandey9
+
+        <p>Instgram id - mr_rohan._ 
+
+        <p>Location: Baraunsa, Sultanpur, Uttar Pradesh</p>
+
+        <form>
+
+            <input type="text" placeholder="Your Name">
+            <br>
+            <input type="text" placeholder="Your Father Name">
+            <br>
+            <input type="number" placeholder="Your Mobile number">
+            <br>
+
+            <input type="email" placeholder="Your Email">
+            <br>
+            <input type="text" placeholder="Your district">
+            <br>
+
+
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Rohan Pandey | My Introduction Website</p>
+    </footer>
+
+</body>
+</html>
